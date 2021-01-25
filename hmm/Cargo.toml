@@ -1,0 +1,16 @@
+[package]
+name      = "hmm"
+version   = "0.1.0"
+authors   = ["Evrey <evrey@hackish.codes>"]
+edition   = "2018"
+workspace = ".."
+publish   = false
+
+
+
+[dependencies.uuid]
+version          = "0.8"
+default-features = false
+
+[dependencies.prusti-contracts]
+git = "https://github.com/viperproject/prusti-dev.git"
